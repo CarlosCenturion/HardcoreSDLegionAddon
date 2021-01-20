@@ -1,0 +1,10 @@
+## Interface: 90002
+## Plain Title: HardCoreSD
+## Version: 1.0
+## Author: Taokaiser
+
+
+main.lua
+
+Modules\PvPInterface.lua
+Modules\EnemyCount.lua

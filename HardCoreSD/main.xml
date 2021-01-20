@@ -1,0 +1,59 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">  
+
+   <Frame name="PvPUIbyTaokaiser">
+
+   <Size><AbsDimension x="100" y="100"/></Size>
+  <Anchors>
+    <Anchor point="CENTER"/>
+  </Anchors>
+
+  <Frames>
+    <Button name="$parent_Button">
+      <Anchors>
+        <Anchor point="CENTER"/>
+      </Anchors>
+    </Button>
+  </Frames>
+
+  <Frame>
+    <Layer level="BACKGROUND">
+ <Size><RelDimension x="0.5" y="0.5"/> </Size>
+ <Anchors>
+  <Anchor point="LEFT"/>
+ </Anchors>
+</Frame>
+
+<Frame>
+<Layer level="ARTWORK">
+ <Size><AbsDimension x="100" y="100"/></Size>
+ <Anchors>
+  <Anchor point="TOPLEFT" relativePoint="TOPRIGHT"/>
+ </Anchors>
+</Frame>
+
+<Frame>
+<Layer level="OVERLAY">
+ <Size><AbsDimension x="100" y="100"/></Size>
+ <Anchors>
+  <Anchor point="TOPLEFT" relativeTo="SomeOtherFrame">
+   <Offset><AbsDimension x="10" y="-10"/></Offset>
+  </Anchor>
+ </Anchors>
+</Frame>
+
+<Frame>
+ <Anchors>
+  <Anchor point="TOPLEFT" relativeTo="SomeOtherFrame">
+   <Offset><AbsDimension x="5" y="-5"/></Offset>
+  </Anchor>
+  <Anchor point="BOTTOMRIGHT" relativeTo="SomeOtherFrame">
+   <Offset><AbsDimension x="-5" y="5"/></Offset>
+  </Anchor>
+ </Anchors>
+</Frame>
+
+
+</Frame>
+</Ui>
