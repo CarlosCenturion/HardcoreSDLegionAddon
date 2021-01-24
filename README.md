@@ -68,7 +68,7 @@ This Addon is not for noobs or casual players, this is for HardCore players only
 Envui or other interfaces are for pussies, HardCore SD is the only thing you will ever need to enjoy wow again.
 HardCore SD provides a full inmersion while allowing you to keep track of the most important things, your life and buff/debuff and your enemies lifes.
 
- <img src="screenshot.jpg" alt="Logo" width="961" height="870">
+ <img src="screenshot.jpg" alt="Logo" width="1600" height="900">
 
 
 ### Built With
